@@ -1,0 +1,32 @@
+{
+    "core": {
+        "version": "3.1.0.31112"
+    },
+    "opt": {
+        "props": {
+            "capabilities": [
+                "bsp_gen4",
+                "cat2",
+                "j2",
+                "led",
+                "mcu_gp",
+                "usbpd",
+                "wlc1",
+                "wlc1150_68lqxq"
+            ],
+            "dependencies": {
+                "core-lib": "latest-v1.X",
+                "core-make": "latest-v3.X",
+                "mtb-pdl-cat2": "latest-v2.X",
+                "recipe-make-cat2": "latest-v2.X"
+            },
+            "docs_dir": "docs",
+            "flow_version": "2.0",
+            "min_tools": "3.0.0",
+            "template": {
+                "id": "mtb-template-cat2",
+                "version": "release-v1.0.0"
+            }
+        }
+    }
+}
